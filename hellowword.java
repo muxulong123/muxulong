@@ -22,7 +22,7 @@ public class UserServiceImpl implements UserService{
 	@Value("${ITEM_EXPIRE_SECOND}")
 	private Integer ITEM_EXPIRE_SECOND;
 
-	@Autowired
+	@Autowired1111111
 	private JedisClient jedisClient;
 
 
