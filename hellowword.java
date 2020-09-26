@@ -15,9 +15,12 @@ import org.springframework.stereotype.Service;
 
 @Service("userService")
 public class UserServiceImpl implements UserService{
+<<<<<<< HEAD
 	@Autowired
 	private JedisClient jedisClient;
 
+=======
+>>>>>>> origin/branch2
 	@Value("${REDIS_USER_KEY}")
 	private String REDIS_USER_KEY;
 	@Value("${USER_BASE_INFO_KEY}")
@@ -25,6 +28,12 @@ public class UserServiceImpl implements UserService{
 	@Value("${ITEM_EXPIRE_SECOND}")
 	private Integer ITEM_EXPIRE_SECOND;
 
+<<<<<<< HEAD
+=======
+	@Autowired1111111
+	private JedisClient jedisClient;
+
+>>>>>>> origin/branch2
 
 
 	@Autowired
